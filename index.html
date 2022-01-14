@@ -6,17 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="/Styles/styles.css" />
+    <link rel="stylesheet" href="/Styles/produtos.css" />
 
     <title>Barbearia Alura</title>
   </head>
 
   <body>
-    <header><h1 class="titulo-principal">Barbearia Alura</h1></header>
+    <header>
+      <div class="caixa">
+        <h1><img src="/assets/logo.png" alt="" /></h1>
 
-    <img id="banner" src="/assets/banner.jpg" alt="Imagem barbearia" />
+        <nav>
+          <ul class="nav">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="produtos.html">Produtos</a>
+            </li>
+            <li>
+              <a href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <div class="principal">
-      <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
+    <img id="banner-home" src="/assets/banner.jpg" alt="Imagem barbearia" />
+
+    <div class="principal-home">
+      <h2 class="titulo-centralizado-home">Sobre a Barbearia Alura</h2>
 
       <p>
         Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz
@@ -25,7 +44,7 @@
         clientes a cada dia.
       </p>
 
-      <p id="missao">
+      <p id="missao-home">
         <em>
           Nossa missão é:
           <strong
@@ -41,20 +60,24 @@
       </p>
     </div>
 
-    <div class="beneficios">
-      <h3 class="titulo-centralizado">Benefícios</h3>
-      <ul>
-        <li class="itens">Atendimento aos Clientes</li>
-        <li class="itens">Espaço diferenciado</li>
-        <li class="itens">Localização</li>
-        <li class="itens">Profissionais Qualificados</li>
+    <div class="beneficios-home">
+      <h3 class="titulo-centralizado-home">Benefícios</h3>
+      <ul class="ul-home">
+        <li class="itens-home">Atendimento aos Clientes</li>
+        <li class="itens-home">Espaço diferenciado</li>
+        <li class="itens-home">Localização</li>
+        <li class="itens-home">Profissionais Qualificados</li>
       </ul>
 
       <img
         src="/assets/beneficios.jpg"
-        class="imagembeneficios"
+        class="imagembeneficios-home"
         alt="barba sendo feita"
       />
     </div>
+    <footer>
+      <img src="/assets/logo-branco.png" alt="" />
+      <p class="copyright">&copy; Copyright Barbearia Alura - 2022</p>
+    </footer>
   </body>
 </html>
